@@ -147,9 +147,9 @@ foreach ($prefectures as $prefecture => $capital) {
         $prefecture == "群馬県" ||
         $prefecture == "茨城県"
     ) {
-        echo $prefecture . "の県庁所在地は、" . $capital . "です。<br>";
+        echo $prefecture . "の県庁所在地は、" . $capital . "です。";
     } else {
-        echo $prefecture . "は関東地方ではありません。<br>";
+        echo $prefecture . "は関東地方ではありません。";
     }
 
 }
