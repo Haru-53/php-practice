@@ -174,9 +174,6 @@ echo hello("佐藤");
 
 ?>
 
-// エラーになってしまう原因が不明なので要確認（2026年7月5日）
-// Runtime error(Exit status:255(Unknown signal))
-
 
 // Q11 関数-2
 //🔸問題
