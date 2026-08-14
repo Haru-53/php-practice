@@ -40,14 +40,10 @@ echo "現在時刻は「" . $now . "」です。";
 // 但し、ifとelseのみを使用して処理を作成してください。（elseif は使わないでください）
 <?php 
 $device = "mac";
-if ($device == "windows") {
-    echo "使用OSは、windowsです。";
+if ($device === "windows"|| $device === "mac") {
+    echo "使用OSは、$device です。";
 } else {
-    if ($device == "mac") {
-        echo "使用OSは、macです。";
-    } else {
-        echo "どちらでもありません。";
-    }
+    echo "どちらでもありません。";
 }
 ?>
 
@@ -208,7 +204,7 @@ echo "税込価格は" . $taxInPrice . "円です。";
 // 奇数と偶数それぞれを渡して実行して、結果を表示してください。
 <?php
 function distinguishNum($num) {
-    if ($num % 2 == 0) {
+    if ($num % 2 === 0) {
         return $num . "は偶数です。";
     } else {
         return $num . "は奇数です。";

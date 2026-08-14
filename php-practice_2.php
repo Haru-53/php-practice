@@ -239,3 +239,5 @@ $diff = $birthday->diff($today);
 echo 'あの日から' . $diff->days . '日経過しました。';
 
 ?>
+
+あ
